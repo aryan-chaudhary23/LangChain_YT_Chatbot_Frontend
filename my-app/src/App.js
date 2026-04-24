@@ -93,6 +93,9 @@ export default function App() {
               onChange={(e) => setVideoUrl(e.target.value)}
               className="mt-4 w-full p-3 rounded-lg bg-black/40 border border-white/20 focus:outline-none focus:ring-2 focus:ring-purple-500"
             />
+                <p className="mt-2 text-xs text-gray-500">
+  Note: For optimal performance, please use videos under 30 minutes. This app runs on free-tier infrastructure and may not support longer videos reliably.
+</p>
           </div>
 
           {/* RIGHT: Chat */}
