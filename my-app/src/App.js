@@ -25,7 +25,7 @@ export default function App() {
     setLoading(true);
 
     try {
-      const res = await fetch("https://langchainytchatbotbackend-production.up.railway.app/api/ask", {
+      const res = await fetch("https://langchain-yt-chatbot-backend-1.onrender.com/api/ask", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
